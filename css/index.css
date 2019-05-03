@@ -1,0 +1,129 @@
+input {
+	font-size: 1em;
+}
+body {
+	background: white;
+	margin: 0;
+}
+.header {
+	background-color: orange;
+	color: black;
+	display: flex;
+    padding-left: 2vw;
+	padding-bottom: 2vw;
+	padding-right: 2vw;
+	border: solid;
+}
+.header h1 {
+    padding-left: 2vw;
+}
+.header img {
+    border: solid 5px;
+	padding: 1vw;
+	background: lightgray;
+	margin-top: 2.5%;
+}
+.footer {
+    height: auto;
+    background-color: white;
+	display: flex;
+    width: 100%;
+}
+.footer a {
+  color: black;
+  padding: 12px;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row;
+}
+
+.footer a:hover {
+  background-color: orange;
+  border: solid;
+}
+.aside-3 {
+  background: #999999;
+  border: solid;  
+}
+.aside-1 {
+  background: whitesmoke;
+  border-left: solid;
+  border-top: solid;
+  border-bottom: solid;
+}
+.aside-2 {
+  background: whitesmoke; 
+  border-right: solid;
+  border-top: solid;
+  border-bottom: solid;
+}
+
+.aside-2 .ContactForm {
+	background-color: orange;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: 4vw;
+	margin-bottom: 4vw;
+	border: solid;
+}
+
+
+.aside-3 .ContactForm {
+	margin: 2vw;
+}
+.aside-3 .ContactForm p {
+	font-size: 2em;
+}
+.aside-3 .ContactForm .submit {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.aside-1 h2 {
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: 3vw;
+	font-size: 2em;
+}
+.aside-2 h2 {
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: 3vw;
+    margin-bottom: 3vw;
+	font-size: 2em;
+}
+form h1 {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+ul {
+	margin-left: 9vw;
+	margin-right: 9vw;
+	margin-bottom: 3vw;
+	font-size: 1.2em;
+}
+
+.aside-1 img {
+	margin-left: 7vw;
+	margin-top: 3vw;
+	background: orange;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	border: solid;
+}
+.aside-3 h1 {
+    margin-left: 8vw;
+    }
+li {
+    font-size: 1.2em;
+}
+.aside-2 #decort {
+    padding-top: 6vw;
+    padding-left: 5.5vw;
+}
+.aside-2 #decorb {
+    padding-left: 5.5vw
+}
